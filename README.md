@@ -10,9 +10,9 @@ To get started, change the **connection string and any other configuration param
 
 ```
 func init() {
-	session, err := mgo.Dial("Your URL")
-  ...
-  db = session.DB("Name Your DB")
+  	session, err := mgo.Dial("Your URL")
+  	...
+  	db = session.DB("Name Your DB")
  }
  
  func collection() *mgo.Collection {
