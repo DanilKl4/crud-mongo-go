@@ -30,12 +30,10 @@ func main() {
 ```
 
 Then you can run the project with command:  `go run main.go`
-If you have Postman or other alternatives, you can send requests to  
-`http://YourAddress/api/...`
-Instead of three dots, you can write:
-- create (to create new data)
-- get (to get all data)
-- get/SomeID (to get data by ID)
-- delete/SomeID (to delete data by ID)
+If you have Postman or other alternatives, you can send requests to  `http://YourAddress/api/...` Instead of three dots, you can write:
+-  `create`  (to create new data)
+-  `get`  (to get all data)
+-  `get/SomeID`  (to get data by ID)
+-  `delete/SomeID`  (to delete data by ID)
 
 Happy coding!
